@@ -28,3 +28,6 @@
 [submodule "vim/bundle/tcomment"]
 	path = vim/bundle/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "vim/bundle/vimagit"]
+	path = vim/bundle/vimagit
+	url = https://github.com/jreybert/vimagit.git
