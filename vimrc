@@ -41,6 +41,8 @@ set mat=2
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e`
 let python_highlight_all = 1
 
+autocmd Filetype yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
 " ============ Solarized ===============
 set background=dark
 colorscheme solarized
