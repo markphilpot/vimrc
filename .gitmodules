@@ -31,3 +31,9 @@
 [submodule "vim/bundle/vimagit"]
 	path = vim/bundle/vimagit
 	url = https://github.com/jreybert/vimagit.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/apiblueprint.vim"]
+	path = vim/bundle/apiblueprint.vim
+	url = https://github.com/kylef/apiblueprint.vim.git
