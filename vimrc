@@ -1,6 +1,46 @@
-" ============ Pathogen ================
-call pathogen#infect()
-call pathogen#helptags()
+" ============ Vundle ================
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" Plugins
+
+" Utility
+Plugin 'scrooloose/nerdtree'
+Plugin 'majutsushi/tagbar'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'jreybert/vimagit.git'
+
+" Generic Programming Support 
+Plugin 'Townk/vim-autoclose'
+Plugin 'vim-syntastic/syntastic'
+
+" Markdown / Writting
+Plugin 'reedes/vim-pencil'
+Plugin 'tpope/vim-markdown'
+Plugin 'jtratner/vim-flavored-markdown'
+Plugin 'LanguageTool'
+
+" Git Support
+Plugin 'kablamo/vim-git-log'
+Plugin 'gregsexton/gitv'
+Plugin 'tpope/vim-fugitive'
+
+" Theme
+Plugin 'altercation/vim-colors-solarized.git'
+Plugin 'vim-airline/vim-airline'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " ============ Indentation =============
 set autoindent
