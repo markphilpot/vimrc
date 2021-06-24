@@ -35,7 +35,7 @@ Plugin 'gregsexton/gitv'
 Plugin 'tpope/vim-fugitive'
 
 " Theme
-Plugin 'altercation/vim-colors-solarized.git'
+" Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'vim-airline/vim-airline'
 
 " All of your Plugins must be added before the following line
@@ -84,8 +84,8 @@ let python_highlight_all = 1
 autocmd Filetype yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " ============ Solarized ===============
-set background=dark
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
 
 set laststatus=2
 
